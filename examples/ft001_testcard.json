@@ -1,0 +1,16 @@
+{
+  "title": "FT 001: QuadPlane VTOL transition and waypoint circuit (SITL)",
+  "limits": {
+    "att_rms_deg": 3.0,
+    "rise90_s": 1.5,
+    "overshoot_pct": 20.0,
+    "alt_rms_m": 5.0,
+    "spd_rms_ms": null,
+    "xtrack_m": null,
+    "transition_alt_loss_m": 5.0,
+    "transition_time_s": 15.0,
+    "min_sats": 6,
+    "max_hdop": 2.0,
+    "vibe_ms2": 30.0
+  }
+}

@@ -1,0 +1,102 @@
+t,kind,text
+0.4,event,Set home
+5.0,message,Arm: AHRS: not using configured AHRS type
+9.7,message,Arm: AHRS: not using configured AHRS type
+11.8,message,Arm: AHRS: not using configured AHRS type
+13.3,message,Arm: AHRS: not using configured AHRS type
+13.3,message,Arm: AHRS: not using configured AHRS type
+14.8,message,Arm: AHRS: not using configured AHRS type
+16.2,message,Arm: AHRS: not using configured AHRS type
+17.6,message,Arm: AHRS: not using configured AHRS type
+17.6,message,Arm: AHRS: not using configured AHRS type
+19.0,message,Arm: AHRS: not using configured AHRS type
+20.3,message,Arm: AHRS: not using configured AHRS type
+20.3,message,Arm: AHRS: not using configured AHRS type
+21.0,message,PreArm: AHRS: not using configured AHRS type
+21.5,message,Arm: AHRS: not using configured AHRS type
+22.8,message,Arm: AHRS: not using configured AHRS type
+24.0,message,Arm: AHRS: not using configured AHRS type
+25.5,message,Arm: AHRS: not using configured AHRS type
+25.5,message,Arm: AHRS: not using configured AHRS type
+26.7,message,Arm: AHRS: not using configured AHRS type
+28.2,message,Arm: AHRS: not using configured AHRS type
+29.4,message,Arm: AHRS: not using configured AHRS type
+29.4,message,Arm: AHRS: not using configured AHRS type
+30.6,message,Arm: AHRS: not using configured AHRS type
+31.9,message,Arm: AHRS: not using configured AHRS type
+33.2,message,Arm: AHRS: not using configured AHRS type
+33.2,message,Arm: AHRS: not using configured AHRS type
+34.5,message,Arm: AHRS: not using configured AHRS type
+35.8,message,Arm: AHRS: not using configured AHRS type
+37.1,message,Arm: AHRS: not using configured AHRS type
+38.1,event,Event 62
+38.4,event,Armed
+40.8,event,Event 62
+51.8,message,Mission: 2 WP
+51.8,message,Transition started airspeed 0.3
+55.0,message,Transition airspeed reached 13.4
+60.0,message,Transition done
+75.1,message,Reached waypoint #2 dist 85m
+75.1,message,Mission: 3 WP
+97.5,message,Reached waypoint #3 dist 85m
+97.5,message,Mission: 4 WP
+121.0,message,Reached waypoint #4 dist 59m
+121.0,message,Mission: 5 WP
+132.9,message,Reached waypoint #5 dist 85m
+132.9,message,Mission: 6 Jump 1/1
+132.9,message,Mission: 2 WP
+132.9,message,Started autotune
+382.5,message,Mission: 2 WP
+382.5,message,Stopped autotune
+409.5,message,Reached waypoint #2 dist 0m
+409.5,message,Mission: 3 WP
+429.5,message,Reached waypoint #3 dist 84m
+429.5,message,Mission: 4 WP
+452.7,message,Reached waypoint #4 dist 58m
+452.7,message,Mission: 5 WP
+465.8,message,Reached waypoint #5 dist 49m
+465.8,message,Mission: 7 VTOLLand
+485.4,message,Land descend started
+552.8,message,Land final started
+570.6,event,Disarmed
+570.6,message,Land complete
+578.9,message,PreArm: In landing sequence
+578.9,message,PreArm: Auto missing takeoff waypoint
+609.9,message,PreArm: In landing sequence
+609.9,message,PreArm: Auto missing takeoff waypoint
+640.9,message,PreArm: In landing sequence
+640.9,message,PreArm: Auto missing takeoff waypoint
+671.9,message,PreArm: In landing sequence
+671.9,message,PreArm: Auto missing takeoff waypoint
+702.9,message,PreArm: In landing sequence
+702.9,message,PreArm: Auto missing takeoff waypoint
+733.9,message,PreArm: In landing sequence
+733.9,message,PreArm: Auto missing takeoff waypoint
+764.9,message,PreArm: In landing sequence
+764.9,message,PreArm: Auto missing takeoff waypoint
+795.9,message,PreArm: In landing sequence
+795.9,message,PreArm: Auto missing takeoff waypoint
+826.9,message,PreArm: In landing sequence
+826.9,message,PreArm: Auto missing takeoff waypoint
+857.9,message,PreArm: In landing sequence
+857.9,message,PreArm: Auto missing takeoff waypoint
+888.9,message,PreArm: In landing sequence
+888.9,message,PreArm: Auto missing takeoff waypoint
+919.9,message,PreArm: In landing sequence
+919.9,message,PreArm: Auto missing takeoff waypoint
+950.9,message,PreArm: In landing sequence
+950.9,message,PreArm: Auto missing takeoff waypoint
+981.9,message,PreArm: In landing sequence
+981.9,message,PreArm: Auto missing takeoff waypoint
+1012.9,message,PreArm: In landing sequence
+1012.9,message,PreArm: Auto missing takeoff waypoint
+1043.9,message,PreArm: In landing sequence
+1043.9,message,PreArm: Auto missing takeoff waypoint
+1074.9,message,PreArm: In landing sequence
+1074.9,message,PreArm: Auto missing takeoff waypoint
+1105.9,message,PreArm: In landing sequence
+1105.9,message,PreArm: Auto missing takeoff waypoint
+1136.9,message,PreArm: In landing sequence
+1136.9,message,PreArm: Auto missing takeoff waypoint
+1167.9,message,PreArm: In landing sequence
+1167.9,message,PreArm: Auto missing takeoff waypoint

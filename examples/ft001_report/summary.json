@@ -1,0 +1,890 @@
+{
+  "info": {
+    "firmware": "ArduPlane V4.8.0-dev",
+    "vehicle": "ArduPlane",
+    "quadplane": true,
+    "frame": "QuadPlane (VTOL)"
+  },
+  "duration_s": 585.608163,
+  "summary": {
+    "distance_flown_m": 9707.110508694277,
+    "max_distance_from_start_m": 1101.4866476468028,
+    "max_alt_above_home_m": 110.59131622314453,
+    "max_ground_speed_ms": 27.06300163269043,
+    "max_airspeed_ms": 26.491743087768555,
+    "armed_time_s": 532.147056,
+    "flying_time_s": 529.5472629999999,
+    "takeoff_s": 39.0,
+    "landing_s": 568.5
+  },
+  "armed": [
+    [
+      38.562902,
+      570.709958
+    ]
+  ],
+  "attitude": [
+    {
+      "mode": "AUTO",
+      "start": 0.0,
+      "seconds": 132.9,
+      "roll_rms": 7.55,
+      "roll_max": 51.21,
+      "pitch_rms": 1.95,
+      "pitch_max": 8.31
+    },
+    {
+      "mode": "AUTOTUNE",
+      "start": 132.9,
+      "seconds": 249.6,
+      "roll_rms": 15.26,
+      "roll_max": 66.55,
+      "pitch_rms": 4.12,
+      "pitch_max": 14.44
+    },
+    {
+      "mode": "AUTO",
+      "start": 382.5,
+      "seconds": 203.1,
+      "roll_rms": 4.71,
+      "roll_max": 51.4,
+      "pitch_rms": 1.0,
+      "pitch_max": 8.47
+    }
+  ],
+  "response": {
+    "roll": {
+      "steps": 7,
+      "settled_rms": 2.8483513786214925,
+      "rise90_median_s": 0.6997200000000134,
+      "rise90_max_s": 1.9000730000000061,
+      "overshoot_max_pct": 30.020602033522724
+    },
+    "pitch": {
+      "steps": 0,
+      "settled_rms": 1.7377732236002457
+    }
+  },
+  "autotune": {
+    "start_s": 132.9,
+    "end_s": 382.5,
+    "axes": {
+      "roll": {
+        "before": {
+          "steps": 3,
+          "settled_rms": 3.8598098476427407,
+          "rise90_median_s": 1.8992399999999918,
+          "rise90_max_s": 1.9000730000000061,
+          "overshoot_max_pct": 13.327176492676006
+        },
+        "after": {
+          "steps": 4,
+          "settled_rms": 1.5860923314368405,
+          "rise90_median_s": 0.64973999999998,
+          "rise90_max_s": 0.6997200000000134,
+          "overshoot_max_pct": 30.020602033522724
+        }
+      },
+      "pitch": {
+        "before": {
+          "steps": 0,
+          "settled_rms": 2.1293464470473276
+        },
+        "after": {
+          "steps": 0,
+          "settled_rms": 1.353748371398269
+        }
+      }
+    },
+    "gains": [
+      {
+        "gain": "Roll P",
+        "before": 0.141,
+        "after": 0.1864
+      },
+      {
+        "gain": "Roll I",
+        "before": 0.2125,
+        "after": 0.1864
+      },
+      {
+        "gain": "Roll D",
+        "before": 0.0,
+        "after": 0.0029
+      },
+      {
+        "gain": "Roll FF",
+        "before": 0.5527,
+        "after": 0.2668
+      },
+      {
+        "gain": "Pitch P",
+        "before": 0.31,
+        "after": 0.332
+      },
+      {
+        "gain": "Pitch I",
+        "before": 0.2125,
+        "after": 0.7901
+      },
+      {
+        "gain": "Pitch D",
+        "before": 0.0,
+        "after": 0.0048
+      },
+      {
+        "gain": "Pitch FF",
+        "before": 1.4071,
+        "after": 0.7901
+      }
+    ],
+    "messages": [
+      "RollD: 0.0277",
+      "RollD: 0.0097",
+      "RollP: 0.5747",
+      "RollD: 0.0029",
+      "Roll: Finished",
+      "PitchD: 0.0469",
+      "PitchD: 0.0164",
+      "PitchP: 0.9717",
+      "PitchD: 0.0048",
+      "Pitch: Finished"
+    ]
+  },
+  "transitions": [
+    {
+      "start_s": 51.8,
+      "duration_s": 8.2,
+      "to_airspeed_s": 3.2,
+      "alt_change_m": 9.6,
+      "min_alt_m": 30.3,
+      "alt_loss_m": 0.0,
+      "airspeed_end_ms": 22.2
+    }
+  ],
+  "navigation": {
+    "altitude_m": {
+      "rms": 1.3677096351318745,
+      "max_abs": 5.510429382324219,
+      "mean": 0.30691875154704495,
+      "samples": 1586
+    },
+    "airspeed_ms": {
+      "rms": 0.4770068229698244,
+      "max_abs": 2.4576053619384766,
+      "mean": -0.06820177460678889,
+      "samples": 1586
+    },
+    "cross_track_m": {
+      "rms": 13.93015337848937,
+      "max_abs": 83.1785659790039
+    }
+  },
+  "mission": [
+    {
+      "seq": 0,
+      "command": "NAV_WAYPOINT",
+      "alt_m": 0.0
+    },
+    {
+      "seq": 1,
+      "command": "NAV_VTOL_TAKEOFF",
+      "alt_m": 30.0
+    },
+    {
+      "seq": 2,
+      "command": "NAV_WAYPOINT",
+      "alt_m": 100.0
+    },
+    {
+      "seq": 3,
+      "command": "NAV_WAYPOINT",
+      "alt_m": 100.0
+    },
+    {
+      "seq": 4,
+      "command": "NAV_WAYPOINT",
+      "alt_m": 100.0
+    },
+    {
+      "seq": 5,
+      "command": "NAV_WAYPOINT",
+      "alt_m": 100.0
+    },
+    {
+      "seq": 6,
+      "command": "DO_JUMP",
+      "alt_m": 0.0
+    },
+    {
+      "seq": 7,
+      "command": "NAV_VTOL_LAND",
+      "alt_m": 0.0
+    }
+  ],
+  "gps": {
+    "min_sats": 10,
+    "max_hdop": 1.21,
+    "flying_only": true
+  },
+  "ekf": {
+    "SV": 0.1,
+    "SP": 0.18,
+    "SH": 0.04,
+    "SM": 0.14,
+    "flying_only": true
+  },
+  "vibration": {
+    "max_x": 0.5822837352752686,
+    "max_y": 1.0310276746749878,
+    "max_z": 2.228830575942993,
+    "clips": 0,
+    "flying_only": true
+  },
+  "battery": {},
+  "events": [
+    {
+      "t": 0.4,
+      "kind": "event",
+      "text": "Set home"
+    },
+    {
+      "t": 5.0,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 9.7,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 11.8,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 13.3,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 13.3,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 14.8,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 16.2,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 17.6,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 17.6,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 19.0,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 20.3,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 20.3,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 21.0,
+      "kind": "message",
+      "text": "PreArm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 21.5,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 22.8,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 24.0,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 25.5,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 25.5,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 26.7,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 28.2,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 29.4,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 29.4,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 30.6,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 31.9,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 33.2,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 33.2,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 34.5,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 35.8,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 37.1,
+      "kind": "message",
+      "text": "Arm: AHRS: not using configured AHRS type"
+    },
+    {
+      "t": 38.1,
+      "kind": "event",
+      "text": "Event 62"
+    },
+    {
+      "t": 38.4,
+      "kind": "event",
+      "text": "Armed"
+    },
+    {
+      "t": 40.8,
+      "kind": "event",
+      "text": "Event 62"
+    },
+    {
+      "t": 51.8,
+      "kind": "message",
+      "text": "Mission: 2 WP"
+    },
+    {
+      "t": 51.8,
+      "kind": "message",
+      "text": "Transition started airspeed 0.3"
+    },
+    {
+      "t": 55.0,
+      "kind": "message",
+      "text": "Transition airspeed reached 13.4"
+    },
+    {
+      "t": 60.0,
+      "kind": "message",
+      "text": "Transition done"
+    },
+    {
+      "t": 75.1,
+      "kind": "message",
+      "text": "Reached waypoint #2 dist 85m"
+    },
+    {
+      "t": 75.1,
+      "kind": "message",
+      "text": "Mission: 3 WP"
+    },
+    {
+      "t": 97.5,
+      "kind": "message",
+      "text": "Reached waypoint #3 dist 85m"
+    },
+    {
+      "t": 97.5,
+      "kind": "message",
+      "text": "Mission: 4 WP"
+    },
+    {
+      "t": 121.0,
+      "kind": "message",
+      "text": "Reached waypoint #4 dist 59m"
+    },
+    {
+      "t": 121.0,
+      "kind": "message",
+      "text": "Mission: 5 WP"
+    },
+    {
+      "t": 132.9,
+      "kind": "message",
+      "text": "Reached waypoint #5 dist 85m"
+    },
+    {
+      "t": 132.9,
+      "kind": "message",
+      "text": "Mission: 6 Jump 1/1"
+    },
+    {
+      "t": 132.9,
+      "kind": "message",
+      "text": "Mission: 2 WP"
+    },
+    {
+      "t": 132.9,
+      "kind": "message",
+      "text": "Started autotune"
+    },
+    {
+      "t": 382.5,
+      "kind": "message",
+      "text": "Mission: 2 WP"
+    },
+    {
+      "t": 382.5,
+      "kind": "message",
+      "text": "Stopped autotune"
+    },
+    {
+      "t": 409.5,
+      "kind": "message",
+      "text": "Reached waypoint #2 dist 0m"
+    },
+    {
+      "t": 409.5,
+      "kind": "message",
+      "text": "Mission: 3 WP"
+    },
+    {
+      "t": 429.5,
+      "kind": "message",
+      "text": "Reached waypoint #3 dist 84m"
+    },
+    {
+      "t": 429.5,
+      "kind": "message",
+      "text": "Mission: 4 WP"
+    },
+    {
+      "t": 452.7,
+      "kind": "message",
+      "text": "Reached waypoint #4 dist 58m"
+    },
+    {
+      "t": 452.7,
+      "kind": "message",
+      "text": "Mission: 5 WP"
+    },
+    {
+      "t": 465.8,
+      "kind": "message",
+      "text": "Reached waypoint #5 dist 49m"
+    },
+    {
+      "t": 465.8,
+      "kind": "message",
+      "text": "Mission: 7 VTOLLand"
+    },
+    {
+      "t": 485.4,
+      "kind": "message",
+      "text": "Land descend started"
+    },
+    {
+      "t": 552.8,
+      "kind": "message",
+      "text": "Land final started"
+    },
+    {
+      "t": 570.6,
+      "kind": "event",
+      "text": "Disarmed"
+    },
+    {
+      "t": 570.6,
+      "kind": "message",
+      "text": "Land complete"
+    },
+    {
+      "t": 578.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 578.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 609.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 609.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 640.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 640.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 671.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 671.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 702.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 702.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 733.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 733.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 764.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 764.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 795.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 795.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 826.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 826.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 857.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 857.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 888.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 888.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 919.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 919.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 950.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 950.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 981.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 981.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 1012.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 1012.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 1043.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 1043.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 1074.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 1074.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 1105.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 1105.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 1136.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 1136.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    },
+    {
+      "t": 1167.9,
+      "kind": "message",
+      "text": "PreArm: In landing sequence"
+    },
+    {
+      "t": 1167.9,
+      "kind": "message",
+      "text": "PreArm: Auto missing takeoff waypoint"
+    }
+  ],
+  "prearm": [
+    "PreArm: AHRS: not using configured AHRS type",
+    "PreArm: In landing sequence",
+    "PreArm: Auto missing takeoff waypoint"
+  ],
+  "limits": {
+    "att_rms_deg": 3.0,
+    "rise90_s": 1.5,
+    "overshoot_pct": 20.0,
+    "alt_rms_m": 5.0,
+    "spd_rms_ms": null,
+    "xtrack_m": null,
+    "transition_alt_loss_m": 5.0,
+    "transition_time_s": 15.0,
+    "min_sats": 6,
+    "max_hdop": 2.0,
+    "vibe_ms2": 30.0
+  },
+  "checks": [
+    {
+      "check": "Aircraft armed",
+      "value": "yes",
+      "target": "yes",
+      "pass": true
+    },
+    {
+      "check": "Roll tracking, settled (RMS)",
+      "value": "2.8\u00b0",
+      "target": "\u2264 3\u00b0",
+      "pass": true
+    },
+    {
+      "check": "Roll step response, 90% rise (median of 7)",
+      "value": "0.70 s",
+      "target": "\u2264 1.5 s",
+      "pass": true
+    },
+    {
+      "check": "Roll step response, overshoot (max)",
+      "value": "30.0%",
+      "target": "\u2264 20%",
+      "pass": false
+    },
+    {
+      "check": "Pitch tracking, settled (RMS)",
+      "value": "1.7\u00b0",
+      "target": "\u2264 3\u00b0",
+      "pass": true
+    },
+    {
+      "check": "Transition at 51.8 s: altitude loss",
+      "value": "0.0 m",
+      "target": "\u2264 5 m",
+      "pass": true
+    },
+    {
+      "check": "Transition at 51.8 s: time to complete",
+      "value": "8.2 s",
+      "target": "\u2264 15 s",
+      "pass": true
+    },
+    {
+      "check": "Altitude tracking, fixed wing (RMS)",
+      "value": "1.4 m",
+      "target": "\u2264 5 m",
+      "pass": true
+    },
+    {
+      "check": "Airspeed tracking, fixed wing (RMS)",
+      "value": "0.5 m/s",
+      "target": "reported",
+      "pass": null
+    },
+    {
+      "check": "Cross track error (max)",
+      "value": "83.2 m",
+      "target": "reported",
+      "pass": null
+    },
+    {
+      "check": "GPS satellites (minimum)",
+      "value": "10",
+      "target": "\u2265 6",
+      "pass": true
+    },
+    {
+      "check": "GPS HDOP (maximum)",
+      "value": "1.21",
+      "target": "\u2264 2",
+      "pass": true
+    },
+    {
+      "check": "EKF innovation test ratios (max)",
+      "value": "0.18",
+      "target": "< 1.0",
+      "pass": true
+    },
+    {
+      "check": "Vibration (max axis)",
+      "value": "2.2 m/s\u00b2",
+      "target": "< 30 m/s\u00b2",
+      "pass": true
+    },
+    {
+      "check": "Accelerometer clipping",
+      "value": "0",
+      "target": "0",
+      "pass": true
+    },
+    {
+      "check": "Error events (ERR)",
+      "value": "0",
+      "target": "0",
+      "pass": true
+    }
+  ],
+  "modes": [
+    {
+      "mode": "AUTO",
+      "start": 0.0,
+      "end": 132.86,
+      "duration": 132.86
+    },
+    {
+      "mode": "AUTOTUNE",
+      "start": 132.86,
+      "end": 382.49,
+      "duration": 249.64
+    },
+    {
+      "mode": "AUTO",
+      "start": 382.49,
+      "end": 585.61,
+      "duration": 203.12
+    }
+  ],
+  "file": "ft001_quadplane_autotune_sitl.BIN.gz",
+  "generated_utc": "2026-11-26 08:56"
+}
